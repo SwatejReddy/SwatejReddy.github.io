@@ -110,11 +110,13 @@ body {
   margin-bottom: 50px;
   margin-top: 0px;
   padding-top: 60px;
+  animation: fadeIn 3s;
 }
 .welcome-name {
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 10px;
+  animation: fadeIn 3s;
 }
 
 .welcome-desc {
@@ -122,6 +124,16 @@ body {
   margin-top: 0px;
   padding-bottom: 30px;
   margin-bottom: 0px;
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body {
