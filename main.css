@@ -1,0 +1,202 @@
+body {
+  margin: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3d1766;
+  position: fixed;
+  width: 100%;
+}
+
+.header-options-container {
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 15px;
+  background-color: #3d1766;
+  align-items: center;
+  max-width: 250px;
+  min-width: 150px;
+  justify-content: space-between;
+}
+
+.header-initials {
+  text-decoration: none;
+  font-family: "Aboreto", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4.5px 0px;
+  color: white;
+  /* margin: 0px 5px; */
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0px;
+}
+
+.header-initials:hover {
+  font-size: 24px;
+  padding: 2px;
+  margin-right: -4.5px;
+  margin-left: -4.5px;
+  color: #3d1766;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.733);
+}
+
+.header-home {
+  color: white;
+  /* margin: 0px 5px; */
+  cursor: pointer;
+  /* transition: 0.25s; */
+  transition: 0.3s;
+}
+.header-about {
+  color: white;
+  /* margin: 0px 5px; */
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.header-contact {
+  color: white;
+  /* margin: 0px 5px; */
+  cursor: pointer;
+  /* transition: 0.25s; */
+  transition: 0.3s;
+}
+
+.header-home:hover,
+.header-about:hover {
+  color: wheat;
+  font-size: 18px;
+  margin-right: -2px;
+  margin-left: -2px;
+  /* font-size: 20px;
+  padding: 2px;
+  margin-right: -8px;
+  margin-left: -6px;
+  color: #674188;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.733); */
+}
+.header-contact:hover {
+  color: wheat;
+  font-size: 18px;
+  margin-right: -4px;
+  margin-left: -2px;
+  /* font-size: 18px;
+  padding: 2px;
+  margin-right: -6px;
+  margin-left: -4px;
+  color: #674188;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.733); */
+}
+.welcome-box {
+  background-color: #6f1ab6;
+  margin-left: 0px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 0px;
+}
+
+.welcome-text {
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+.welcome-name {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.welcome-desc {
+  font-size: 25px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: #f7efe5;
+  /* height: 957px; */
+}
+
+.about-box {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.image-box {
+  margin: 15px;
+  width: auto;
+}
+
+.swatej-jpg {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+}
+
+.info-box {
+  width: 100%;
+  flex-wrap: wrap;
+  /* border: 3px solid red; */
+}
+
+.edu1-box {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  padding: 20px 5px 25px 20px;
+}
+.edu2-box {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  padding: 25px 5px 15px 20px;
+}
+.edu {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  padding: 30px 5px 10px 20px;
+}
+
+.edu-title {
+  font-size: 40px;
+  /* margin: 5px 0px; */
+}
+.degree-title {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.institute {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+.cgpa {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-box {
+    flex-direction: column;
+  }
+
+  .info-box {
+    flex-wrap: wrap;
+  }
+}
